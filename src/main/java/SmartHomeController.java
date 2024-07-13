@@ -14,6 +14,8 @@ public class SmartHomeController {
     }
 
     public String getTimeOfDay(LocalDateTime localDateTime) {
+
+        // Time of day
         String timeOfDay = "";
         if (localDateTime.getHour() > 0 && localDateTime.getHour() < 6)
             timeOfDay = " nacht";
