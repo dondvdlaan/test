@@ -6,6 +6,7 @@ public class SmartHomeController {
     // 1 commit
     IDateTimeProvider iDateTimeProvider;
 
+    // 2 commit
     public SmartHomeController(IDateTimeProvider iDateTimeProvider) {
         this.iDateTimeProvider = iDateTimeProvider;
     }
