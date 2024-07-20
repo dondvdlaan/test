@@ -3,6 +3,7 @@ import java.time.LocalDateTime;
 
 public class SmartHomeController {
 
+    // 1 commit
     IDateTimeProvider iDateTimeProvider;
 
     public SmartHomeController(IDateTimeProvider iDateTimeProvider) {
